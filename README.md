@@ -1,20 +1,31 @@
-# thiago-vieira
+![image](https://github.com/user-attachments/assets/1cb43bce-abb0-4f19-b14a-32136edfb281)
 
-This template should help get you started developing with Vue 3 in Vite.
+# Thiago Vieira - Portfolio
 
-## Recommended IDE Setup
+Aqui reuno meus melhores projetos e trajetória profissional.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### 🔧 Acessar projeto.
 
-## Type Support for `.vue` Imports in TS
+- [Thiago Vieira - Site](https://thiago-vieira.com/)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 📦 Desenvolvimento
 
-## Customize configuration
+O projeto está em desenvolvimento!
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Construído com
 
-## Project Setup
+* Vue 3.
+* Tailwind.
+
+## 🧠 Aprendido
+
+- Utilização do tailwind.
+- Hospedagem automática (Provedor: Hostinger).
+- 
+
+## 📌 Deseja rodar na sua máquina? Sem problemas!
+
+### Project Setup
 
 ```sh
 npm install
@@ -37,3 +48,10 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## 🎁 Agradecimentos
+
+* Obrigado por ler até aqui, compartilhe se gostou 😎
+
+---
+⌨️ com ❤️ por [Francisco Thiago](https://github.com/DEV-Thiago-Vieira/) 😊
