@@ -1,4 +1,8 @@
+<a href="https://thiago-vieira.com/">
+  
 ![image](https://github.com/user-attachments/assets/1cb43bce-abb0-4f19-b14a-32136edfb281)
+
+<a/>
 
 # Thiago Vieira - Portfolio
 
