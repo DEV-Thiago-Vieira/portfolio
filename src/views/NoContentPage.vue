@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="bg-stone-800 text-white w-full h-screen flex flex-col gap-3 text-center items-center justify-center"
+    class="p-2 bg-stone-800 text-white w-full h-screen flex flex-col gap-3 text-center items-center justify-center"
   >
     <h1 class="text-5xl font-bold">Welcome to my Portfolio :3</h1>
     <span class="text-xl italic">I'm building it yet! Come back in a few weeks!</span>
