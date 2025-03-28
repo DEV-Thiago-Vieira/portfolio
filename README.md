@@ -20,12 +20,12 @@ O projeto está em desenvolvimento!
 
 * Vue 3.
 * Tailwind.
+* TypeScript.
 
 ## 🧠 Aprendido
 
 - Utilização do tailwind.
 - Hospedagem automática (Provedor: Hostinger).
-- 
 
 ## 📌 Deseja rodar na sua máquina? Sem problemas!
 
