@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import type { RouteRecordRaw } from 'vue-router';
 
-import NoContentPage from '@/views/NoContentPage.vue';
+import MainPage from '@/views/Portfolio/MainPage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: NoContentPage,
+    name: 'main',
+    component: MainPage,
   },
 ];
 
