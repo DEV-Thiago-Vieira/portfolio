@@ -4,6 +4,13 @@
     <span class="text-xl italic">Sobre e serviços -></span>
   </header>
   <home-section />
+
+  <section
+    id="next-section"
+    class="h-screen w-full bg-white flex items-center justify-center text-4xl font-bold"
+  >
+    Próxima Seção
+  </section>
 </template>
 
 <script setup lang="ts">
