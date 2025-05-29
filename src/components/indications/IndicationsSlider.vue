@@ -13,10 +13,14 @@
       v-fade-in
     >
       <IndicationCard
-        v-for="(n, i) in totalSlides"
-        :key="i"
+        v-for="card in cards"
+        :key="card.author"
+        :author="card.author"
+        :image-path="card.imagePath"
+        :role="card.role"
+        :message="card.message"
         class="absolute top-0 w-2/3 h-full rounded-lg transition-all duration-300"
-        :style="cardStyle(i)"
+        :style="cardStyle(card.id)"
       />
     </div>
 
@@ -34,6 +38,30 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import IndicationCard from './IndicationCard.vue'
+
+const cards = [
+  {
+    id: 1,
+    author: 'Merykson Acácio',
+    message: `Ótima pessoa e profissional. Com suas habilidades analíticas apuradas e facilidade de aprendizado, sempre que procurei ajudá-lo, obtive também valiosos aprendizados, tanto no âmbito profissional quanto pessoal.`,
+    imagePath: '/src/assets/img/Merykson.jpg',
+    role: 'Senior',
+  },
+  {
+    id: 2,
+    author: 'Renan Medeiros',
+    message: `Um profissional sério, comprometido com tudo que lhe é atribuído e com autocontrole ímpar para ocasiões onde ninguém mais teria. Trabalhar com o Thiago foi um grande privilégio, certamente ele maneja seu tempo com maestria [...].`,
+    imagePath: '/src/assets/img/Renan.jpg',
+    role: 'Júnior',
+  },
+  {
+    id: 3,
+    author: 'Levy Avelino',
+    message: `Thiago é um ótimo profissional capaz de se adaptar rapidamente a novos projetos e tecnologias, sempre que ele buscava orientação, fazia perguntas relevantes e assimilava rapidamente as soluções propostas.`,
+    imagePath: '/src/assets/img/Levy.jpg',
+    role: 'Senior',
+  },
+]
 
 const totalSlides = 3
 const currentIndex = ref(0)

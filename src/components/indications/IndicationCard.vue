@@ -5,24 +5,20 @@
     <div
       class="max-w-sm min-w-[300px] p-6 bg-white rounded-xl shadow-xl hover:shadow-2xl transition-transform duration-300 transform hover:scale-105 active:scale-95 snap-center cursor-grab"
     >
-      <h2 class="text-lg font-semibold mb-4">Junior</h2>
-      <div class="text-gray-700 mb-4">
-        <p class="text-3xl text-orange-500 leading-none">“</p>
-        <p class="mt-2">
-          Ótima pessoa e profissional. Com suas habilidades analíticas apuradas e facilidade de
-          aprendizado, sempre que procurei ajudá-lo, obtive também valiosos aprendizados, tanto no
-          âmbito profissional quanto pessoal.
+      <h2 class="text-lg font-semibold mb-4">{{ props.role }}</h2>
+      <div class="text-gray-700 mb-4 flex gap-[1rem]">
+        <span class="text-5xl text-orange-500 text-right leading-none block w-min mb-2">“</span>
+        <p class="mt-2 block w-[90%] mx-auto">
+          {{ message }}
         </p>
-        <p class="text-3xl text-orange-500 text-right leading-none">”</p>
+        <span class="text-5xl text-orange-500 text-right leading-none block w-min self-end h-2"
+          >”</span
+        >
       </div>
-      <div class="flex items-center space-x-3 mt-4">
-        <img
-          class="w-10 h-10 rounded-full"
-          src="/src/assets/img/Merykson.jpg"
-          alt="Merykson Acácio"
-        />
+      <div class="flex items-center space-x-3 mt-8">
+        <img class="w-10 h-10 rounded-full" :src="props.imagePath" :alt="props.author" />
         <div>
-          <p class="font-semibold">Merykson Acácio</p>
+          <p class="font-semibold">{{ props.author }}</p>
           <a href="#" class="text-black hover:text-gray-700">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -33,4 +29,10 @@
 </template>
 
 <script setup lang="ts">
+const props = defineProps({
+  message: { type: String, required: true },
+  imagePath: { type: String, required: true },
+  role: { type: String, required: true },
+  author: { type: String, required: true },
+})
 </script>
