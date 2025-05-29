@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center w-full  p-5 md:p-8 fixed bg-neutral-50 z-30">
+  <header class="flex justify-between items-center w-full  p-5 md:p-8 fixed bg-neutral-50 z-1000" v-fade-in>
     <img src="../assets/img/Icon.svg" alt="Logo" class="z-30" />
 
     <nav class="hidden md:flex space-x-8 text-xl font-medium">
@@ -67,7 +67,7 @@ const baseLineClass = 'w-8 h-0.5 bg-black transform transition duration-300 ease
 
 const menuItems = [
   { label: 'Início', href: '#home' },
-  { label: 'Indicações', href: '#next-section' },
+  { label: 'Indicações', href: '#indications' },
   { label: 'Projetos', href: '#projetos' },
   { label: 'Contatos', href: '#contatos' },
 ]

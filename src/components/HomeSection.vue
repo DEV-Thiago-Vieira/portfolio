@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-neutral-50 w-full h-screen flex flex-col gap-3 items-center justify-center p-8" id="home">
+  <div class="bg-neutral-50 w-full h-screen flex flex-col gap-3 items-center justify-center p-8" id="home" v-fade-in>
     <section
       class="flex md:flex-row h-full w-full justify-center md:justify-evenly items-center flex-col-reverse"
     >

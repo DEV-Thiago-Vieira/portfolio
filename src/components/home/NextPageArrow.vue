@@ -44,7 +44,7 @@ import { ref } from 'vue'
 const hovering = ref(false)
 
 function scrollNextSection() {
-  const nextSection = document.getElementById('next-section')
+  const nextSection = document.getElementById('indications')
   if (nextSection) {
     nextSection.scrollIntoView({ behavior: 'smooth' })
   }
