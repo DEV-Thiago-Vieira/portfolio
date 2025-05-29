@@ -68,7 +68,7 @@ const baseLineClass = 'w-8 h-0.5 bg-black transform transition duration-300 ease
 const menuItems = [
   { label: 'Início', href: '#home' },
   { label: 'Indicações', href: '#indications' },
-  { label: 'Projetos', href: '#projetos' },
+  { label: 'Projetos', href: '#projects' },
   { label: 'Contatos', href: '#contatos' },
 ]
 

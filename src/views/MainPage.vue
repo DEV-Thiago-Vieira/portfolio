@@ -2,6 +2,7 @@
   <header-menu />
   <home-section />
   <indications-section />
+  <projects-section />
 
   <section
     id="next-section"
@@ -16,6 +17,7 @@
 import HeaderMenu from '@/components/HeaderMenu.vue'
 import HomeSection from '@/components/HomeSection.vue'
 import IndicationsSection from '@/components/IndicationsSection.vue';
+import ProjectsSection from '@/components/ProjectsSection.vue';
 </script>
 
 <style scoped></style>

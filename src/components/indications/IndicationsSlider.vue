@@ -26,10 +26,10 @@
 
     <div class="flex justify-center space-x-2 mt-4">
       <button
-        v-for="index in totalSlides"
-        :key="index"
-        @click="goToSlide(index - 1)"
-        :class="['w-3 h-3 rounded-full', currentIndex === index - 1 ? 'bg-black' : 'bg-gray-400']"
+        v-for="card in cards"
+        :key="card.id"
+        @click="goToSlide(card.id - 1)"
+        :class="['w-3 h-3 rounded-full', currentIndex === card.id - 1 ? 'bg-orange-500' : 'bg-gray-400']"
       ></button>
     </div>
   </section>
