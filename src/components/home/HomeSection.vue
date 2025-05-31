@@ -2,7 +2,7 @@
   <div
     class="bg-neutral-50 w-full h-screen flex flex-col gap-3 items-center justify-center p-8"
     id="home"
-  
+
   >
     <section
       class="flex md:flex-row min-h-[80%]  w-full justify-center md:justify-evenly items-center flex-col-reverse"
@@ -23,7 +23,7 @@
         </span>
         <email-card />
       </div>
-      <img class="w-[30%] min-w-[200px] max-w-[800px] h-max" src="/src/assets/img/Face.svg" alt="" />
+      <img class="w-[30%] min-w-[200px] max-w-[800px] h-max" src="/src/assets/img/Face.png" alt="" />
     </section>
     <next-page-arrow />
   </div>
