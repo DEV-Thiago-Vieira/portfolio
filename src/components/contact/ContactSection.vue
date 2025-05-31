@@ -185,11 +185,11 @@
 
 <script setup lang="ts">
 import { reactive, ref, onMounted, onBeforeUnmount, watch } from 'vue'
-import SuccessIcon from './contact/SuccessIcon.vue'
-import ErrorIcon from './contact/ErrorIcon.vue'
-import { BlobCanvas } from '@/assets/animations/BlobCanvas'
+import SuccessIcon from './SuccessIcon.vue'
+import ErrorIcon from './ErrorIcon.vue'
 import { useChallengeV3 } from 'vue-recaptcha/head'
 import emailjs from '@emailjs/browser'
+import { BlobCanvas } from '../../assets/animations/BlobCanvas';
 
 const STORAGE_KEY = 'contact-form-data'
 const { execute } = useChallengeV3('submit')

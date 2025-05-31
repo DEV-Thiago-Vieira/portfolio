@@ -20,5 +20,5 @@
 </template>
 
 <script setup lang="ts">
-import IndicationsSlider from './indications/IndicationsSlider.vue'
+import IndicationsSlider from './IndicationsSlider.vue'
 </script>

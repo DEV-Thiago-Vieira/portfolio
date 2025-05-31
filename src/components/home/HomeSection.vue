@@ -23,14 +23,14 @@
         </span>
         <email-card />
       </div>
-      <img class="w-[30%] min-w-[200px] max-w-[800px] h-max" src="../assets/img/Face.svg" alt="" />
+      <img class="w-[30%] min-w-[200px] max-w-[800px] h-max" src="/src/assets/img/Face.svg" alt="" />
     </section>
     <next-page-arrow />
   </div>
 </template>
 
 <script setup lang="ts">
-import NextPageArrow from './home/NextPageArrow.vue'
-import EmailCard from './home/EmailCard.vue'
-import CustomName from './home/CustomName.vue'
+import NextPageArrow from './NextPageArrow.vue'
+import EmailCard from './EmailCard.vue'
+import CustomName from './CustomName.vue'
 </script>

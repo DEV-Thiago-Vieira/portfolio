@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import ProjectCard from './projects/ProjectCard.vue'
+import ProjectCard from './ProjectCard.vue'
 
 const projects = [
   {

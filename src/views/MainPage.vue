@@ -10,14 +10,14 @@
 </template>
 
 <script setup lang="ts">
-import HeaderMenu from '@/components/HeaderMenu.vue'
-import HomeSection from '@/components/HomeSection.vue'
-import IndicationsSection from '@/components/IndicationsSection.vue';
-import ProjectsSection from '@/components/ProjectsSection.vue';
-import ContactSection from '@/components/ContactSection.vue';
-import FooterSection from '@/components/FooterSection.vue';
-import AboutSection from '@/components/AboutSection.vue';
-import TechnologiesSection from '@/components/TechnologiesSection.vue';
+import HeaderMenu from '@/components/common/HeaderMenu.vue'
+import HomeSection from '@/components/home/HomeSection.vue'
+import IndicationsSection from '@/components/indications/IndicationsSection.vue';
+import ProjectsSection from '@/components/projects/ProjectsSection.vue';
+import ContactSection from '@/components/contact/ContactSection.vue';
+import FooterSection from '@/components/common/FooterSection.vue';
+import AboutSection from '@/components/about/AboutSection.vue';
+import TechnologiesSection from '@/components/technologies/TechnologiesSection.vue';
 </script>
 
 <style scoped></style>

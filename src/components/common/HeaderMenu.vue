@@ -1,6 +1,6 @@
 <template>
   <header class="flex justify-between items-center w-full  p-5 md:p-8 fixed bg-neutral-50 z-1000" v-fade-in>
-    <img src="../assets/img/Icon.svg" alt="Logo" class="z-30" />
+    <img src="/src/assets/img/Icon.svg" alt="Logo" class="z-30" />
 
     <nav class="hidden md:flex space-x-8 text-xl font-medium">
       <a
