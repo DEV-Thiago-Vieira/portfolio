@@ -5,7 +5,7 @@
     v-fade-in
   >
     <section
-      class="flex md:flex-row h-full w-full justify-center md:justify-evenly items-center flex-col-reverse"
+      class="flex md:flex-row min-h-[80%]  w-full justify-center md:justify-evenly items-center flex-col-reverse"
     >
       <div class="flex flex-col gap-[1em] h-max items-center md:items-baseline">
         <custom-name />
