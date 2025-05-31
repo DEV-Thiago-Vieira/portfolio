@@ -13,9 +13,14 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@iconify-icons/logos": "^1.2.36",
+    "@iconify-icons/simple-icons": "^1.2.74",
+    "@iconify/vue": "^5.0.0",
     "@tailwindcss/vite": "^4.0.17",
     "tailwindcss": "^4.0.17",
     "vue": "^3.5.13",
+    "vue-recaptcha": "^3.0.0-alpha.6",
     "vue-router": "^4.0.13"
   },
   "devDependencies": {
