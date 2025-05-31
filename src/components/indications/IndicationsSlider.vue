@@ -10,7 +10,7 @@
       @mouseup="endDrag"
       @mouseleave="endDrag"
       @touchend="endDrag"
-      v-fade-in
+
     >
       <IndicationCard
         v-for="card in cards"

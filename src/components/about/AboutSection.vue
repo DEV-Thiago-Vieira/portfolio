@@ -2,11 +2,11 @@
   <section
     id="about"
     class="bg-zinc-900 text-white w-full min-h-[70vh] flex flex-col items-center justify-center px-6 py-20 gap-12"
-    v-fade-in
-  >
-    <h1 class="text-4xl font-bold text-center text-white" v-fade-in>Sobre mim</h1>
 
-    <div class="flex flex-col md:flex-row items-center gap-10 max-w-5xl w-full" v-fade-in>
+  >
+    <h1 class="text-4xl font-bold text-center text-white" >Sobre mim</h1>
+
+    <div class="flex flex-col md:flex-row items-center gap-10 max-w-5xl w-full" >
       <div
         class="bg-zinc-800 p-2 rounded-full shadow-lg min-w-44 h-44 md:min-w-56 md:h-56 flex items-center justify-center"
       >

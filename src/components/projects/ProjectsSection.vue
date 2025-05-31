@@ -2,7 +2,7 @@
   <section
     id="projects"
     class="bg-zinc-900 w-full min-h-[80vh] flex flex-col items-center justify-center px-6 py-20 gap-10"
-    v-fade-in
+
   >
     <h1 class="text-3xl font-bold text-white text-center">Alguns de meus projetos</h1>
 

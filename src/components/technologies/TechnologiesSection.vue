@@ -2,11 +2,11 @@
   <section
     id="technologies"
     class="bg-neutral-50 w-full min-h-[60vh] flex flex-col items-center justify-center px-6 py-20"
-    v-fade-in
-  >
-    <h1 class="relative text-3xl font-bold mt-10 text-center" v-fade-in>Principais tecnologias que domino</h1>
 
-    <blockquote class="text-center max-w-xl italic text-gray-500 px-4 mb-10" v-fade-in>
+  >
+    <h1 class="relative text-3xl font-bold mt-10 text-center" >Principais tecnologias que domino</h1>
+
+    <blockquote class="text-center max-w-xl italic text-gray-500 px-4 mb-10" >
       <p class="text-lg leading-relaxed">"A tecnologia é melhor quando reúne as pessoas."</p>
       <cite class="block mt-2 text-sm not-italic font-medium text-gray-400">
         — Matt Mullenweg

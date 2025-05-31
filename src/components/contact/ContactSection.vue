@@ -2,12 +2,12 @@
   <div
     id="contact"
     class="relative bg-zinc-900 w-full flex min-h-[80vh] flex-col gap-6 items-center justify-center p-8 overflow-hidden pt-[100px] z-10"
-    v-fade-in
+
   >
     <canvas
       id="canvas"
       class="absolute top-0 left-0 w-full h-full pointer-events-none z-0"
-      v-fade-in
+
     ></canvas>
     <div class="absolute inset-0 bg-zinc-900/60 backdrop-blur-sm z-[5] md:hidden"></div>
 
