@@ -77,5 +77,5 @@ Se curtir o projeto, fique à vontade para **compartilhar ou deixar uma estrela*
 
 ---
 
-⌨️ Feito com ❤️ por [Francisco Thiago Vieira](https://github.com/DEV-Thiago-Vieira)  
+⌨️ Feito com ❤️ por [Thiago Vieira](https://github.com/DEV-Thiago-Vieira)  
 🔗 Acesse: [thiago-vieira.com](https://thiago-vieira.com)
