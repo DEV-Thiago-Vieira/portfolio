@@ -67,9 +67,11 @@ const baseLineClass = 'w-8 h-0.5 bg-black transform transition duration-300 ease
 
 const menuItems = [
   { label: 'Início', href: '#home' },
-  { label: 'Indicações', href: '#indications' },
+  { label: 'Sobre', href: '#about' },
+  { label: 'Tecnologias', href: '#technologies' },
   { label: 'Projetos', href: '#projects' },
-  { label: 'Contatos', href: '#contatos' },
+  { label: 'Indicações', href: '#indications' },
+  { label: 'Contatos', href: '#contact' },
 ]
 
 const updateActiveSection = () => {
