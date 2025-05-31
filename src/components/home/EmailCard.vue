@@ -35,7 +35,7 @@
           :class="hover && !clicked ? 'text-white' : 'text-black'"
         >
           <span class="px-3 text-sm font-medium whitespace-nowrap">
-            {{ clicked ? 'Copiado com sucesso!' : 'contato@thiago-vieira.com' }}
+            {{ clicked ? 'Copiado com sucesso!' : 'contact@thiago-vieira.com' }}
           </span>
         </div>
       </div>
@@ -56,7 +56,7 @@ const hover = ref(false)
 const clicked = ref(false)
 
 const handleClick = () => {
-  navigator.clipboard.writeText('contato@thiago-vieira.com')
+  navigator.clipboard.writeText('contact@thiago-vieira.com')
   clicked.value = true
 
   setTimeout(() => {
