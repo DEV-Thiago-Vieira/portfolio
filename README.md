@@ -1,33 +1,50 @@
 <a href="https://thiago-vieira.com/">
   
-![image](https://github.com/user-attachments/assets/1cb43bce-abb0-4f19-b14a-32136edfb281)
+![image](https://github.com/user-attachments/assets/8f3912be-f7a5-48d5-99c0-a3b8e174a9e0)
 
-<a/>
+</a>
 
-# Thiago Vieira - Portfolio
+# 📁 Thiago Vieira – Portfolio
 
-Aqui reuno meus melhores projetos e trajetória profissional.
+Bem-vindo ao meu portfólio profissional!  
+Aqui compartilho minha trajetória, habilidades e projetos desenvolvidos com foco em performance, design e boas práticas.
 
-### 🔧 Acessar projeto.
+🌐 **Acesse agora:** [thiago-vieira.com](https://thiago-vieira.com)
 
-- [Thiago Vieira - Site](https://thiago-vieira.com/)
+---
 
-## 📦 Desenvolvimento
+## 🚀 Projeto em Desenvolvimento
 
-O projeto está em desenvolvimento!
+> Este projeto ainda está sendo aprimorado com novas funcionalidades e melhorias constantes.
 
-## 🛠️ Construído com
+---
 
-* Vue 3.
-* Tailwind.
-* TypeScript.
+## 🛠️ Tecnologias Utilizadas
 
-## 🧠 Aprendido
+Este portfólio foi desenvolvido com as seguintes ferramentas:
 
-- Utilização do tailwind.
-- Hospedagem automática (Provedor: Hostinger).
+- [Vue 3](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## 📌 Deseja rodar na sua máquina? Sem problemas!
+---
+
+## 📚 O que aprendi
+
+Durante o desenvolvimento deste projeto, aprimorei conhecimentos importantes:
+
+- Estilização avançada com Tailwind CSS.
+- Automatização de hospedagem (projeto hospedado na [Hostinger](https://www.hostinger.com/)).
+- Boas práticas com Vue + TypeScript.
+
+---
+
+## ⚙️ Rodando localmente?
+
+> **Atenção:** Este projeto **não pode ser executado localmente**, pois as variáveis de ambiente necessárias para funcionamento completo foram **ocultadas propositalmente** por questões de segurança.  
+> Elas estão relacionadas ao sistema de **mensageria** utilizado no site e sua exposição causaria vulnerabilidades.
+
+Mesmo assim, aqui estão os comandos padrão para quem quiser estudar a estrutura do projeto:
 
 ### Project Setup
 
@@ -53,9 +70,12 @@ npm run build
 npm run lint
 ```
 
-## 🎁 Agradecimentos
+## 🎉 Agradecimentos
 
-* Obrigado por ler até aqui, compartilhe se gostou 😎
+Obrigado por visitar meu portfólio!  
+Se curtir o projeto, fique à vontade para **compartilhar ou deixar uma estrela** 🌟 no repositório.
 
 ---
-⌨️ com ❤️ por [Francisco Thiago](https://github.com/DEV-Thiago-Vieira/) 😊
+
+⌨️ Feito com ❤️ por [Francisco Thiago Vieira](https://github.com/DEV-Thiago-Vieira)  
+🔗 Acesse: [thiago-vieira.com](https://thiago-vieira.com)
