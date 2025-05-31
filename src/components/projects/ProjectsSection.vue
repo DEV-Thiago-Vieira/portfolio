@@ -30,7 +30,7 @@ const projects = [
   {
     name: 'Project 1',
     description: 'App de gerenciamento de tarefas com autenticação.',
-    image: '/src/assets/img/ProjectExample.png',
+    image: 'https://thiago-vieira.com/assets/ProjectExample.png',
     tech: ['logos:vue', 'logos:nodejs', 'logos:mongodb'],
     features: ['Login JWT', 'Painel responsivo', 'Notificações em tempo real'],
     demo: 'https://thiago-vieira.com',
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Project 2',
     description: 'Landing page moderna com animações e design responsivo.',
-    image: '/src/assets/img/ProjectExample.png',
+    image: 'https://thiago-vieira.com/assets/ProjectExample.png',
     tech: ['logos:html-5', 'logos:css-3', 'logos:javascript'],
     features: ['Scroll animado', 'SEO otimizado', 'Design mobile-first'],
     demo: 'https://thiago-vieira.com',
@@ -48,7 +48,7 @@ const projects = [
   {
     name: 'Project 3',
     description: 'Dashboard analítico com gráficos dinâmicos.',
-    image: '/src/assets/img/ProjectExample.png',
+    image: 'https://thiago-vieira.com/assets/ProjectExample.png',
     tech: ['logos:react', 'logos:chartjs', 'logos:tailwindcss-icon'],
     features: ['Gráficos interativos', 'Dark mode', 'Filtros avançados'],
     demo: 'https://thiago-vieira.com',

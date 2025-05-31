@@ -274,8 +274,6 @@ const onSubmit = async () => {
     return;
   }
 
-  console.log(token)
-
   if (!token) {
     formStatus.value = 'error';
     errorMessage.value = 'ReCAPTCHA não retornou um token válido.';
