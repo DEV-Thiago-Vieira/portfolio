@@ -46,5 +46,5 @@
 
 <script setup lang="ts">
 import TechnologiesCard from './TechnologiesCard.vue'
-import IconTooltip from './IconTooltip.vue'
+import IconTooltip from '../common/IconTooltip.vue'
 </script>
